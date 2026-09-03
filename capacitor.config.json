@@ -1,0 +1,23 @@
+{
+  "appId": "com.topgss.app",
+  "appName": "TOP GSS",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "backgroundColor": "#000000"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#000000",
+      "showSpinner": true,
+      "spinnerColor": "#E50914"
+    }
+  }
+}
